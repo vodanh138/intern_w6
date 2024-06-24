@@ -17,7 +17,6 @@ const EditProduct = () => {
 
     useEffect(() => {
         const fetchProducts = async () => {
-            console.log('AAAAAAAAAAAAAAA');
             const response = await api.get(`/product/${id}`);
             setItem(response.data);
         };
