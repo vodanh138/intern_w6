@@ -1,0 +1,51 @@
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], input[type="number"], select, input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.btn_add { 
+    margin-top: 20px;
+    margin-left: 175px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+  
+button.btn_add:hover {
+    background-color: #0056b3;
+}
+
+.add_file{
+    display: none;
+}
+
+.add_label{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#file_name{
+    font-size: 18px;
+}
+.add_label:hover{
+    background-color: #0056b3;
+}
